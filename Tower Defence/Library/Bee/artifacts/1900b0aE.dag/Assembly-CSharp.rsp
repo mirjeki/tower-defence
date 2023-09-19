@@ -356,6 +356,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CoordinateLabeller.cs"
+"Assets/Scripts/EnemyHealth.cs"
+"Assets/Scripts/EnemyMover.cs"
+"Assets/Scripts/HelperMethods.cs"
+"Assets/Scripts/Projectile.cs"
+"Assets/Scripts/TargetLocator.cs"
+"Assets/Scripts/Waypoint.cs"
 -langversion:9.0
 
 /deterministic
