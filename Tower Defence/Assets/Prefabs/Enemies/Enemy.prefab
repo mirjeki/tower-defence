@@ -92,6 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5672325927823913723}
+  - component: {fileID: -1093580477662804051}
   - component: {fileID: 7747361268370447895}
   - component: {fileID: 1229132110425748752}
   - component: {fileID: -722481980423865172}
@@ -118,6 +119,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1093580477662804051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5040643765344069697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff315ce2b82ebbd47805c8ab6c8223f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldReward: 5
+  goldPenalty: 25
 --- !u!114 &7747361268370447895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,19 +145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a7b4e80f1efa940835a0e559bd4bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   speed: 1
 --- !u!114 &1229132110425748752
 MonoBehaviour:
@@ -156,6 +158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba5b9c4c209a5d49ab85baa7dcfa560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 1
+  killDelay: 1
+  healthIncrease: 1
 --- !u!65 &-722481980423865172
 BoxCollider:
   m_ObjectHideFlags: 0
